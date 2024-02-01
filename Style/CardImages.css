@@ -1,0 +1,149 @@
+.CardAudio[data-v-c6bc3a69] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px
+}
+
+.CardWord__container[data-v-158bb8fc] {
+    display: flex;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    -webkit-user-select: inherit;
+    -moz-user-select: inherit;
+    user-select: inherit
+}
+
+.CardWord__inner[data-v-158bb8fc] {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.CardSentence__container[data-v-5643e357] {
+    display: flex;
+    justify-content: center;
+    -webkit-user-select: inherit;
+    -moz-user-select: inherit;
+    user-select: inherit
+}
+
+.CardSentence__inner[data-v-5643e357] {
+    margin-bottom: 16px;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.CardTranslatedSentence[data-v-416a5005] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    min-height: 41px;
+    -webkit-user-select: inherit;
+    -moz-user-select: inherit;
+    user-select: inherit
+}
+
+.CardTranslatedSentence .TranslatedSentence[data-v-416a5005] {
+    color: var(--secondary-text)
+}
+
+.CardDefinitions__container[data-v-d15ef7ec] {
+    position: relative;
+    margin-bottom: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--grey-4);
+    word-wrap: break-word;
+    -webkit-user-select: inherit;
+    -moz-user-select: inherit;
+    user-select: inherit;
+    text-align: left;
+}
+
+.CardDefinitions__container .ShowAllButton[data-v-d15ef7ec] {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 67px)
+}
+
+.CardDefinitions__container .overlay[data-v-d15ef7ec] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0%,var(--background-elevation-1) 100%)
+}
+
+.CardDefinitions.--hidden[data-v-d15ef7ec] {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden
+}
+
+.CardDefinitions[data-v-d15ef7ec] .UiTypo {
+    text-align: left
+}
+
+.CardDefinitions[data-v-d15ef7ec] .UiTypo p {
+    min-height: 20px
+}
+
+.CardDefinitions .bottom[data-v-d15ef7ec] {
+    border-top: 1px solid transparent
+}
+
+.CardExampleSentences[data-v-4a97058f] {
+    margin-bottom: 16px;
+    -webkit-user-select: inherit;
+    -moz-user-select: inherit;
+    user-select: inherit
+}
+
+.CardExampleSentences.--top-border[data-v-4a97058f] {
+    padding-top: 16px;
+    border-top: 1px solid var(--grey-4)
+}
+
+.CardExampleSentences[data-v-4a97058f] p {
+    min-height: 20px
+}
+
+.CardNotes[data-v-cd0a3cc3] {
+    padding: 24px 16px;
+    border-radius: 16px;
+    background-color: var(--background-tinted-elevation-1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    word-break: break-word;
+    -webkit-user-select: inherit;
+    -moz-user-select: inherit;
+    user-select: inherit
+}
+
+.CardNotes[data-v-cd0a3cc3] p {
+    min-height: 20px
+}
+
+.CardImages[data-v-036e87cf] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px
+}
+
+.CardImages[data-v-036e87cf] .UiSkeleton {
+    width: 100%
+}
+
+.CardImages.--disable-pointer-events[data-v-036e87cf] img {
+    pointer-events: none
+}
